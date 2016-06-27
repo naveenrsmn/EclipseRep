@@ -9,6 +9,7 @@ public class Showroom {
 		{
 		case 1: return new MarutiCar();
 		case 2: return new ToyotaCar();
+		case 4: System.out.println("HI");
 		default: return null;
 		}
 	}
